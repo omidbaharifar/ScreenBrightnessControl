@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "yekan";
+    src: url(./fonts/Yekan.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "yekan";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 500px;
+    display: grid;
+    place-items: center;
+    padding: 0px 20px;
+}
+
+.brightness-input {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
